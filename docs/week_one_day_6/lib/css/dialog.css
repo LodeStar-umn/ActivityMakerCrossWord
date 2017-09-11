@@ -1,0 +1,302 @@
+.character1,.character2 {
+	position: absolute;
+}
+
+.character1>.image,.character2>.image {
+	border: none !important;
+}
+
+.character1 {
+	left: 160px !important;  
+	top: 190px !important;
+}
+
+.character2 {
+	left: 400px !important;  
+	top: 190px !important;
+}
+
+.dialog1 {
+	top: 20px !important;
+	left: 120px !important;  
+}
+
+.dialog2 {
+	left: 465px !important; 
+	top: 20px !important; 
+}
+
+.dialog1,.dialog2 {
+	position: absolute;
+	background-color: #000000;
+	color: #000000;
+	padding: 20px;
+	opacity: .9;
+	height: 130px !important;
+	width: 235px !important;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	font-size: 13px;
+}
+
+.dialog1 {
+	background: url("speechBubbleLeft.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.dialog2 {
+	background: url("speechBubbleRight.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.dialogQuestionContainer {
+	position: absolute !important;
+	top: 87%;
+	background-color: #FFFFFF;
+	width: 100% !important;
+	height: 60px !important;
+	margin-right: 20px !important;
+	z-index: 10;
+	opacity: .9;
+}
+
+.dialogItemContainer {
+	position: absolute !important;
+	top: 0%;
+	padding:20px;
+	background-color: #FFFFFF;
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0px;
+	z-index: 10;
+	opacity: .8;
+}
+
+.dialogStem {
+	position: absolute !important;
+	top: -10px !important;
+	margin: 12px;
+	margin-left: 50px;
+	height: 50px;
+	left: 0px !important;
+	width: 400px !important;
+	font-weight: bold;
+}
+
+.dialogQuestion {
+	position: absolute !important;
+	height: 50px !important;
+	left: 450px !important;
+}
+
+.dialogQuestionPart {
+	position: absolute;
+	margin: 15px;
+	margin-top:5px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	background-color: #00FFc7;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.riskScore{
+	background-color: #660000;
+	color:white;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.protectiveScore{
+	background-color: #eeeeff;
+	color:black;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.dialogItem {
+	position: absolute;
+	width: 95% !important;
+	height: 30px !important;
+	margin: 0px;
+	margin-top:5px;
+}
+
+.dialogItemPart{
+	position: absolute;
+	width: 90%;
+	font-size: 12px;
+}
+
+.dialogCheckbox{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+
+.dialogQuestionPart.selected {
+	background-color: #a7a7a7;
+	color: #000000;
+}
+
+.dialogQuestionPart:hover {
+	background-color: #171717;
+	color: #FFFFFF;
+}
+
+.additionalInfoInput {
+	
+	margin-right: 10px;
+	width: 50px !important;
+	height: 30px !important;
+	top: 5px !important;
+	left: 640px !important;
+	opacity: 1 !important;
+	border:groove 2px #000000;
+	background-color: #ebebeb;
+	padding-left: 5px;
+
+}
+
+.DialogPage {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	box-shadow: 10px 10px 5px #888888;
+	height: 98% !important;
+}
+
+
+
+.DialogPage>.content {
+	height: 370px !important;
+	background: url("../../layout/room.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.DialogItemPage>.content {
+	height: 370px !important;
+	background: none;
+}
+
+
+
+.reportDiv {
+	font-size: 11px;
+	
+}
+
+
+.legendDiv {
+	position:absolute !important;
+	height: 50px !important;
+	font-size: 11px;
+	width: 98% !important;
+	margin-left:30px;
+	margin-top : 20px;
+}
+
+.legendPart {
+	position: absolute;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	background: none;
+}
+
+.labelsDiv{
+	position: relative;
+	margin-left:35px;
+	margin-top:0px;
+}
+
+.labelPart {
+	position: absolute;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	background: none;
+	font-size: 11px;
+	
+	
+}
+
+.graphScaleExplanationDiv{
+	position: relative;
+	width:600px !important;
+	margin-left:180px;
+	margin-top:25px;
+}
+
+.graphScalePart{
+	position: absolute;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	background: none;
+	font-size: 11px;
+	
+	
+}
+
+.evaluationBargraph {
+	margin-top: 50px;
+	height: 150px !important;
+	width: 98%;
+}
+
+.RCCCEvaluationPage {
+	
+}
+
+#headerTitle {
+	color: #FFFFFF !important;
+	font-size: 24px;
+}
+
+#navMenuButton{
+	visibility:hidden !important;
+	}
+	
+<!-- added in Build 31 -->
+
+.InterviewPage .content .text{
+width : 65% !important;
+}
+
+.InterviewPage .content .interviewerDistractor{
+width : 65% !important;
+}
+
+.InterviewPage .content .text.interviewerStem{
+width : 65% !important;
+}
